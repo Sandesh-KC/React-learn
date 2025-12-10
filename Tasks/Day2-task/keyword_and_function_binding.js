@@ -1,3 +1,4 @@
+//Day 2 tasks
 //Task 1: using 'this' keyword
 const student = {
   Name: "Sandesh",
