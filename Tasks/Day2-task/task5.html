@@ -1,0 +1,26 @@
+<!-- Task 5 -->
+<!-- using THIS in click handler -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <title>THIS keyword in a click handler</title>
+ </head>
+ <body>
+    <button class="js-button">Click me</button>
+
+    <script>
+      const obj1 = {
+        Name: "Sandesh", 
+        Address: "Suryabinayak",
+        details: function() {
+          alert("Hello, this is "+this.Name+" from "+this.Address);
+        }
+      };
+      document.querySelector('.js-button').addEventListener("click", ()=> {
+        obj1.details();
+      });
+    </script>
+ </body>
+ </html>
