@@ -1,0 +1,1 @@
+export const fakeAPI = "API_BASE_URL";
